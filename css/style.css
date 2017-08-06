@@ -1,0 +1,29 @@
+*{
+	padding:0;border:0;font:14px;
+	}
+ul,li,dl,dt{
+	list-style:none;
+	}	
+body{
+	text-align:center;
+	}
+#canvasDiv{
+	width:1260px;
+	height:690px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-630px;
+	margin-top:-345px;
+	}
+#stageCanvas{
+	background-color:black;
+	position:absolute;
+	left:0px;
+	top:0px;
+	}
+#playerCanvas,#npcCanvas,#mapCanvas,#overCanvas{
+	position:absolute;
+	left:30px;
+	top:0px;
+	}
